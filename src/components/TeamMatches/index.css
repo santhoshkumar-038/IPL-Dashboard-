@@ -1,0 +1,33 @@
+.team-matches-container {
+  background-image: linear-gradient(to bottom, #a4261d, #d91c1f);
+  padding: 50px;
+}
+.banner {
+  width: 100%;
+}
+.latest-matches-heading {
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.latest-matches-container {
+  margin-top: 20px;
+}
+.team-matches-details-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  width: 100%;
+}
+.loader {
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .team-matches-container {
+    padding: 20px;
+  }
+}

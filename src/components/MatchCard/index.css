@@ -1,0 +1,67 @@
+/* Write your CSS here */
+.competing-team-item {
+  background-color: #1e293b;
+  margin-bottom: 40px;
+  border-radius: 20px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+}
+.competing-team-image-url {
+  width: 250px;
+  height: 300px;
+}
+.competing-team-text {
+  color: #ffffff;
+  margin-top: 20px;
+  font-family: 'Bree Serif';
+  font-size: 24px;
+  text-align: center;
+}
+.result-text {
+  color: #ffffff;
+  margin-top: 30px;
+  font-family: 'Bree Serif';
+  text-align: center;
+}
+.result-status-text {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+.apply-green {
+  color: #18ed66;
+}
+.apply-red {
+  color: #e31a1a;
+}
+
+@media screen and (max-width: 992px) {
+  .competing-team-image-url {
+    width: 200px;
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .competing-team-item {
+    width: 48%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .competing-team-image-url {
+    width: 100%;
+    height: 150px;
+  }
+  .competing-team-item {
+    font-size: 16px;
+    padding-bottom: 50px;
+  }
+  .result-text {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,138 @@
+.latest-matches-bg-container {
+  background-color: #1e293b;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 10px;
+}
+.competing-team {
+  color: #ffffff;
+  font-family: 'bree Serif';
+  margin-bottom: 30px;
+}
+.date {
+  color: #ffffff;
+  font-family: 'bree Serif';
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.venue {
+  color: #ffffff;
+  font-family: 'bree Serif';
+  margin-bottom: 10px;
+}
+.result {
+  color: #ffffff;
+  font-family: 'bree Serif';
+}
+.competing-team-logo {
+  color: #ffffff;
+  width: 70%;
+}
+.first-innings-heading {
+  color: #ffffff;
+  font-family: 'bree Serif';
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.first-innings {
+  color: #ffffff;
+  font-family: 'bree Serif';
+  margin-bottom: 10px;
+}
+.second-innings-heading {
+  color: #ffffff;
+  font-family: 'bree Serif';
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.second-innings {
+  color: #ffffff;
+  font-family: 'bree Serif';
+  margin-bottom: 10px;
+}
+.man-of-the-match-heading {
+  color: #ffffff;
+  font-family: 'bree Serif';
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.man-of-the-match {
+  color: #ffffff;
+  font-family: 'bree Serif';
+  margin-bottom: 10px;
+}
+.umpires-heading {
+  color: #ffffff;
+  font-family: 'bree Serif';
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.umpires {
+  color: #ffffff;
+  font-family: 'bree Serif';
+  margin-bottom: 10px;
+}
+.match-details {
+  text-align: right;
+}
+.competing-team-image {
+  align-self: center;
+  font-family: 'bree Serif';
+}
+.competing-team-details {
+  align-self: center;
+  font-family: 'bree Serif';
+}
+
+@media screen and (max-width: 768px) {
+  .match-details {
+    width: 300px;
+  }
+  .competing-team-details {
+    width: 180px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .competing-team {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  .date {
+    font-size: 16px;
+  }
+  .venue {
+    font-size: 16px;
+  }
+  .result {
+    font-size: 16px;
+  }
+  .first-innings-heading {
+    font-size: 16px;
+    font-weight: 200;
+  }
+  .first-innings {
+    font-size: 14px;
+  }
+  .second-innings-heading {
+    font-size: 16px;
+    font-weight: 200;
+  }
+  .second-innings {
+    font-size: 14px;
+  }
+  .man-of-the-match-heading {
+    font-size: 16px;
+    font-weight: 200;
+  }
+  .man-of-the-match {
+    font-size: 14px;
+  }
+  .umpires-heading {
+    font-size: 16px;
+    font-weight: 200;
+  }
+  .umpires {
+    font-size: 14px;
+  }
+}
